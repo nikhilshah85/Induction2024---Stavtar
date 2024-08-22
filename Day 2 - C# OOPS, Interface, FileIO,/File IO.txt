@@ -1,0 +1,26 @@
+using System.IO;
+
+	FileStream myFile = new FileStream("filename.txt",FileMode.Create,FileAccess.Write);
+	StreamWriter pen = new StreamWriter(myFile);
+	
+		pen.WriteLine("Hello");
+		pen.WriteLine("Hello");
+		pen.WriteLine("Hello");	
+		pen.WriteLine("Hello");
+		pen.WriteLine("Hello");
+		pen.WriteLine("Hello");
+		pen.WriteLine("Hello");
+
+	pen.close();
+	myFile.Close();
+
+---------------------------------------------------------------------------------------
+
+	FileStream myFile = new FileStream("filename.txt",FileMode.Open,FileAccess.Read);
+	StreamReader spects = new StreamReader(myFile);
+	speacts.ReadLine();
+
+
+	spects.Close();
+	myFile.Close();
+

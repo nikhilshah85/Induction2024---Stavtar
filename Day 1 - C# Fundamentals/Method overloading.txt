@@ -1,0 +1,12 @@
+Method overloading
+is having multiple methods with same name
+but can have different return types
+or
+different parameters
+or
+or
+different parameter types
+
+further you will have OOPS - where u will learn Inheritance(this is 3rd pillar of OOPS)
+when you have inheritance, you need Polymorphism 
+Polymorphism is achived using method overriding

@@ -1,0 +1,55 @@
+visual studio code -- this is free and available for all the OS
+
+Visual studio 2022 - community version free for Windows OS
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+						C#
+
+	C - Dennies Ritchie
+	C++ - OOPS -- Bjarne Stroupstus
+	C# - Andres Heilsberg
+
+
+		.net core and .net framework
+
+
+		.net framework - mainly for windows OS
+		.net core - free, open source, develop anywhere - run anywhere
+			  - supports cloud development 
+			  - can be developed with VS code as well 
+  		
+
+		Developers need - SDK for developing the app (Software development kit)
+		End User - Runtime
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

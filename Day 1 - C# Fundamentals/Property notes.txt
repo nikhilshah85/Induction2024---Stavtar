@@ -1,0 +1,17 @@
+string myName = "";
+
+public string MyAccountName
+{
+	get
+	{
+		return myName;
+	}
+	set
+	{
+		myName = value;
+	}
+}
+
+accObj.MyAccountName = "Nikhil";  //set part, when property is on left hand side of =
+
+console.writeline(accObj.MyAccountName);

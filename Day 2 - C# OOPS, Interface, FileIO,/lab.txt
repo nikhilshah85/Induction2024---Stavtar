@@ -1,0 +1,16 @@
+Create a new Project
+	employeeManagement in day 2
+	we need Employee class
+		empNo,empName, empSalary, empDesigantion, empAvailableLeaves
+
+	methods, ApplyLeave
+		 CalculateBonus (no parameters needed)
+
+	You will have child classes
+		Developer - can apply max 5 days of leave
+		HR - can apply max 3 days of leave
+		Accounts - can apply max 1 day of leave
+
+		They all get leave on if empAvailableLeaves are available
+
+	

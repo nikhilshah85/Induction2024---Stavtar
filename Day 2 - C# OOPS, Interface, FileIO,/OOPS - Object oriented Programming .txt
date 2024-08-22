@@ -1,0 +1,28 @@
+				OOPS - Object oriented Programming Structure
+
+
+		Object ?
+
+			Object has property - description 
+				   methods - when performed on object, change the state
+				   events - triggers - happens at a timed phase based on method execution
+				delegate - representative on behlf of object
+				(delegates and events - combined to create an automation)
+
+
+		Class - Blueprint and 1000s of objects are created from it
+
+	---------------------------------------------------------------------------------
+		To design this class we use 4 pillars of OOPS 
+			(object and class are the part of OOPS - final product of OOPS)
+
+			Abstraction - create a class, which are abstract in nature, top class
+					add required properties and methods for this object
+			Encpsulation - Hide the logic
+				create things which are easy to use, but difficult to understand
+				we create properties, methods, constructors, events
+			Inheritance - reuse
+			Polymorphism - same method, same signature but different form - different rules
+				method overloading
+
+
