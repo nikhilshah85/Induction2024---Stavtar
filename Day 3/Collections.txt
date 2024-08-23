@@ -1,0 +1,20 @@
+						Collections
+
+	store multiple values in a single variable
+		and you can add, update, delete, retrive value, sort, filter, calculate etc..
+
+		using System.Collection;
+		Types
+
+		Array      = string[] friends = new string[10];
+				friends[0] = "Nikhil";
+				friends[1] = "Sahil";
+			with list datatype and size is fixed
+		ArrayList
+			no fix size and no fixed datatype
+			
+		List
+		HashTable
+		Dictionary
+
+	

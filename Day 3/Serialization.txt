@@ -1,0 +1,20 @@
+				Serialization
+	Serialization is a process to persist state of an object from 1 place to other place
+					(ram to disk)
+					(ram to another ram)
+
+	Deserialization is a process to bring the object back to same state (open the object)
+
+	----------------------------
+		Formats of data which can be used by serialization
+			binary format (light weight but not cross platform)
+			xml format (cross platform - little bit heavy and slow) - data only
+			SOAP (Simple object access protocol) - XML based format - but more detailed
+							data + schema
+				used a lot in WebServices
+
+			JSON (JavaScript object Notation) - used in REST services
+				This is more lighter, faster and flexible
+				cross platform
+				Problems with Webservices are solved by this technology
+				based on HTTP web standards

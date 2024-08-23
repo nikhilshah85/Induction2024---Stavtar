@@ -1,0 +1,9 @@
+1. Create a new project Servialization_demo
+2. Add a new class - Accounts
+	add properties, accNo,accName,accType, accBalance,accIsActive
+3. Mark your class as [Serializable] or [JsonSerializable] for JSON format
+4. create a new object of class and give properties value
+5. Create an object of file if you want to persit the object to disk or an object of Http if you want to
+	send it over network (which is done by a web application)
+6. create the serilizer obj
+	
