@@ -1,0 +1,18 @@
+			ASP.net Core
+				a. Web APP (MVC Application) - UI - Angular
+				b. REST Api Service (Data shareing)
+							
+
+
+ASP.Net Core (WebAPI - REST)
+
+		SOA - Service Oriented Architecture
+
+
+		Full Stack Development
+
+		FrontEnd - ASP.Net MVC, Angular, React, JSP, PHP etc...Console app, Winforms etc...
+
+		Middleware - REST API (WebService,WCF,WebAPI)
+
+		Backend - Data, SQL Server, Oracle, NoSQL - MongoDB etc..
