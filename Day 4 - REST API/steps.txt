@@ -1,0 +1,52 @@
+1. created a database and table with some data
+2. created a new WEBAPI project shoppingAPI
+3. Enable Entity framework, by adding 4 nuget packages
+		Microsoft.EntityFrameworkCore.Tools
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore
+		Microsoft.EntityFrameworkCore.SqlServer
+4. We need to generate POCO classes - Plain C# Objects
+		this are classes mapped to tables in database
+		classes will have properties - mapped to coloumns in table
+
+
+	tools -> Nuget package manager -> package manager console
+
+	Scaffold-DbContext "connection string" -Provider Microsoft.EntityFrameworkCore.SqlServer
+		-outPutDir Models
+
+Scaffold-DbContext "server=NIKHILPC\MUMBAISERVER;database=shoppingDB_2;integrated security=true;TrustServerCertificate=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
+
+5. Build the project
+6. Add new API controller --> right click on controller folder, add, controller, api controller using EF
+ choose table name in Model drop down, choose dbcontext file and give a meaningful name to controller
+7. In the controller file, it tries to use Dependency Injection, which is a good practice but since we are yet to study it, we will remove it
+	a. instatiate new object of Dbcontext with 
+			= new ShoppingDbContext();
+
+	b. comment the constructor
+
+8. build and run the project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
