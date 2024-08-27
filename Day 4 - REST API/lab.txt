@@ -1,0 +1,10 @@
+1. Practice the same app 1ce again
+2. Create a new app for employee management - in memory collection
+3. Create a new app for employee management - with database
+					create 2 tables here
+				and it will create 2 POCO classes
+				and u can create 2 controllers 
+
+------------------------------------------------------------------------
+	refer to the course content file - prepare for post test on 1st 3 modules
+
