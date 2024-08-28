@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consume POST API Data</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<script>
+    function getPost()
+    {
+        var url = "https://jsonplaceholder.typicode.com/posts";
+
+        fetch(url)
+                    .then( dataFormat => dataFormat.json())
+                    .then( data => {
+                        alert('Success');
+                        console.log(data);
+                        
+                        var tblPost = document.getElementById('tblPost');
+
+                        tblPost.innerHTML +="<tr><th>ID</th><th>Title</th><th>Body</th></tr>";
+
+                        for(var i=0; i<data.length; i++)
+                        {
+                            tblPost.innerHTML += "<tr><td>"+data[i].id+"</td><td>"+data[i].title+"</td><td>"+data[i].body+"</td></tr>";
+                        }
+                        
+
+                        //code to display the data on page
+                    })
+                    .catch( errDetails => {
+                        alert('Error');
+                    })
+    }
+</script>
+
+
+<body>
+    <button onclick="getPost()"> GET Post</button>
+    <table id="tblPost" border="1"></table>
+</body>
+</html>
+
+
+

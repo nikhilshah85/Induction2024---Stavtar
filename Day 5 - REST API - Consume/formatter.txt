@@ -1,0 +1,1 @@
+https://learn.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/json-and-xml-serialization#xml-media-type-formatter

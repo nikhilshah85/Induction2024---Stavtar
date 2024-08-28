@@ -1,0 +1,16 @@
+		Consume API
+			there are 2 ways / 2 approach 
+
+		
+		1. Consume From Client Side - Availble in WebAPP's(JavaScript)
+			Fastest way to get the data
+			Less secure for sensitive data
+			We use fetch api for the same - fetch api is a - it is build into every browser
+				fetch api is a javascript based api - part of every browser
+				It returns a promise
+		2. Consume From server side - using programming C#, Typescript, Java, C++ etc..
+				Standard class 
+						HttpClient class 
+			this is little bit slower than above, but very safe and secure
+
+			can be used for Web, Desktop app like console and winforms/wpf etc...

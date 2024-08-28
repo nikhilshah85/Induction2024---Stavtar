@@ -1,0 +1,89 @@
+What are services (background services)
+		Dependency Injection
+		CORS (Cross Origin Resource Shareing)
+		oAuth - Add Facebook, Google, linkedin, twitter, O365 
+
+
+Middlware -- once you add the service above, you on and off with middleware
+-------------------------------
+
+	1. create a new api application - use EF and understand DI - use DI service
+	2. you will try to consume this api - and you will get cors error
+	3. we will add cors service and middleware to allow access
+--------------------------------------------------------------------------------------------------------
+			What is DI ?
+
+	we create lots of objects but we do not destroy them, so they keep lying on the ram
+
+	big frameworks like Java, .Net they have garbage collector, which comes at a random time and 
+		clears the memory 
+	
+		
+	What is not been introduced globally, is DI
+		which means Developer will not create any object, 
+
+		instead, runtime will create the object and destroy the object 
+			it will destroy it based on the Lifecycle method which developer will configure
+
+			there are 3 methods
+
+			a. AddTranscient - (Per call)  - dynamic data
+			b. AddScoped - (per session) - per user - personal data
+			c. AddSingleton (1 global object) 
+
+
+1. Create a new WebAPI application 
+2. Add a class - Accounts, add 5 properties to it and list of employee variable with 5 employees
+		have 2 methods, 
+		getallAccounts
+		getAccbyAccN
+		AddAccount
+3. Add a Api controller and make all 3 methods available to client by adding Iactionresult method
+
+4. Add support for EF - add 4 nugets
+5. download poco classes - use EmployeeDB from yesterday, which had employee and dept tables
+6. create controllers for both of them
+------------------
+	test api and make sure all the links are working well
+	
+	we will implement DI on the same
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
